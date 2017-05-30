@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{margin:.67em 0;font-size:2em}mark{color:#000;background:#ff0}small{font-size:80%}sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{height:0;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{margin:0;font:inherit;color:inherit}button{overflow:visible}button,select{text-transform:none}
+* {
+	font-family: "Roboto", Arial, Tahoma;
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+#imagem-ouro {
+	float: left;
+    height: 316px;
+    margin: 0 8px;
+    position: relative;
+    width: 1017px;
+}
+
+#imagem-ouro *{
+	color: #fff;	
+}
+
+#imagem-ouro .text {
+	background: rgba(0, 0, 0, 0) url("http://produto2.imovelweb.com.br/2016/landing/empreendimentos-de-ouro/images/flag-ouro.png") no-repeat scroll 0 0;
+    height: 180px;
+    margin: 110px 0 0 -8px;
+    padding: 1px 0 0 27px;
+	width: 380px;
+}
+
+#imagem-ouro .text h2 {
+    font-size: 105%;
+    margin: 0;
+    padding: 15px 0 0;
+    font-weight: 400;
+}
+
+#imagem-ouro .text .area, 
+#imagem-ouro .text .quartos,
+#imagem-ouro .text .garagem, 
+#imagem-ouro .text .preco {
+	background: url("http://produto2.imovelweb.com.br/2016/landing/empreendimentos-de-ouro/images/sprite-icones.png") no-repeat;
+	height: 24px;
+    margin: 5px 0;
+    padding-left: 36px;
+	padding-top: 5px;
+}
+
+#imagem-ouro .text .area {
+	background-position: 0 0;	
+}
+
+#imagem-ouro .text .quartos {
+	background-position: 0 -33px;	
+}
+
+#imagem-ouro .text .garagem {
+	background-position: 1px -62px;	
+}
+
+#imagem-ouro .text .preco {
+	background-position: 0 -95px;			
+}
+
+#imagem-ouro:hover .text .area {
+    background-position: -380px 0px;
+}
+
+#imagem-ouro:hover .text .quartos {
+    background-position: -380px -33px;
+}
+
+#imagem-ouro:hover .text .garagem {
+    background-position: -379px -62px;
+}
+
+#imagem-ouro:hover .text .preco {
+    background-position: -380px -95px;
+}
+
+#imagem-ouro:hover h2 {
+    color: #fdb500 !important;
+}
+
+#imagem-ouro a {
+	height: 316px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

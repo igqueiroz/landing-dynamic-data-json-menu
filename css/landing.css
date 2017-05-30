@@ -1,0 +1,1086 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	outline: none;
+	margin: 0;
+	-webkit-transition:0.1s ease-out;
+	-moz-transition:0.1s ease-out;
+	-o-transition:0.1s ease-out;
+	transition:0.1s ease-out;
+	-webkit-transition-property:background-color,color,border-color,opacity;
+	-moz-transition-property:background-color,color,border-color,opacity;
+	-o-transition-property:background-color,color,border-color,opacity;
+	transition-property:background-color,color,border-color,opacity;
+}
+
+body {
+	background: #287bb2 url(../images/fondo.jpg) no-repeat scroll center top;
+	}
+
+#empr-wrapper * {
+	font-family: "Roboto", Arial, Tahoma;
+}
+
+#empr-wrapper {
+	margin: 0 auto;
+	width: 1140px;
+	
+}
+
+#empr-wrapper #empr-header {
+	background: url(../images/logotipo.png?v2) no-repeat center 5px;
+    height: 331px;
+    position: relative;
+}
+#empr-wrapper #empr-header .title{
+	color: #fff;
+    position: absolute;
+    top: 394px;
+    left: 359px;
+    font-size: 30px;
+}
+
+#empr-wrapper #empr-header .text{
+	color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    /* left: 65px; */
+    line-height: 26px;
+    position: absolute;
+    text-align: center;
+    top: 331px;
+    width: 100%;
+    background: url(../images/barra.png?v2);
+    height: 46px;
+    padding-top: 9px;
+}
+
+
+
+#empr-wrapper #empr-body {
+	background: #ebe4d6 url(../images/header_v1.png?v2) no-repeat scroll 0 -411px;
+    float: left;
+    width: 100%;
+    padding-top: 0px;
+}
+
+#empr-wrapper #empr-body .title {
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	color: #BF2023;
+	text-transform: uppercase;
+	font-size: 23px;
+}
+
+#empr-wrapper #empr-body .js-countdown {
+	margin-left: 286px;
+	margin-top: 0;
+}
+
+/* CLOCK COUNTDOWN BEGIN*/
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 50px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #333;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #999;
+    display: inline-block;
+	font-weight: 700;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.js-countdown .separation {
+	background: none !important;
+	color: #333;
+	font-size: 144px;
+	margin: 0;
+	padding: 0 !important;
+}
+/* CLOCK COUNTDOWN ENDS*/
+
+.form {
+	margin-left: 351px; 
+	width: 440px;	
+}
+
+.email_adress {margin-right: 18px;}
+
+label {
+	font-weight: 400;
+	margin-top: 6px;
+	font-size: 16px;	
+}
+
+.title_v2 {
+	font-size: 17px;
+	margin: 0 auto 20px;
+	width: 575px;
+}
+
+.btncolor {
+	background: #fa713a;
+	color: #fff;
+	margin: 4px 0 27px;
+	font-size: 20px;
+	padding: 20px 58px;
+}
+
+.btncolor:hover {}
+
+#footer {
+	display: block;
+	width: 1140px;
+	height: 135px;
+	background: #fff;
+	float: left;
+}
+
+#footer a {
+    color: #000;
+}
+
+#footer a:hover {
+	color: #666;	
+}
+
+
+.social-icons {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 95%;
+}
+
+.social-icons a {
+    padding: 5px 0 0 5px;
+}
+
+.social-icons .copyright-text {
+    color: #aea8ac;
+    float: right;
+    margin-top: 10px;
+}
+
+.fa {
+	font-family: "FontAwesome" !important;
+}
+
+.footer-text {
+	clear: both;
+	font-size: 10px;
+	margin-top: 16px;
+	text-align: right;
+	width: 595px;
+}
+
+sup {
+	top: -0.3em;	
+}
+
+#lista-integracao-sucessmsg {
+	background: #cbca4c none;
+	color: #333;
+	float: left;
+	font-size: 175%;
+	margin-bottom: 30px;
+	
+	text-align: center;
+	width: 99%;
+}
+
+.status-error, .status-success {
+	padding: 10px;
+}
+
+#empr-wrapper #empr-body .flag,
+#empr-wrapper #empr-body .flag2 {
+	background: rgba(0, 0, 0, 0) url("../images/flag_1.png?v2") no-repeat scroll 0 0;
+    color: white;
+    float: left;
+    font-size: 127%;
+    font-weight: 400;
+    height: 71px;
+    margin-left: -8px;
+    padding: 11px 20px 36px 52px;
+    width: 100%;
+}
+#empr-wrapper #empr-body .flag2 {
+	background: rgba(0, 0, 0, 0) url("../images/flag_2.png?v2") no-repeat scroll 0 0;
+	margin-left: -9px;
+}
+
+#empr-wrapper #empr-body #imagem-ouro {
+	float: left;
+    height: 316px;
+    margin: 18px 56px 30px;
+    width: 1017px;
+	position: relative;
+}
+
+#empr-wrapper #empr-body #imagem-ouro *{
+	color: #fff;	
+}
+
+#empr-wrapper #empr-body #imagem-ouro .text {
+	background: rgba(0, 0, 0, 0) url("../images/flag-ouro.png?v2") no-repeat scroll 0 0;
+    height: 180px;
+    margin: 110px 0 0 -8px;
+    padding: 1px 0 0 27px;
+	width: 380px;
+}
+
+#empr-wrapper #empr-body #imagem-ouro .text h2 {
+    font-size: 160%;
+    margin: 0;
+    padding: 15px 0 0;
+}
+
+#empr-wrapper #empr-body #imagem-ouro .text .area, 
+#empr-wrapper #empr-body #imagem-ouro .text .quartos,
+#empr-wrapper #empr-body #imagem-ouro .text .garagem,
+#empr-wrapper #empr-body #imagem-ouro .text .banheiros, 
+#empr-wrapper #empr-body #imagem-ouro .text .preco {
+	background: url(../images/sprite-icones.png?v2) no-repeat;
+	height: 24px;
+    margin: 5px 0;
+    padding-left: 36px;
+	padding-top: 5px;
+}
+
+#empr-wrapper #empr-body #imagem-ouro .text .area {
+	background-position: 0 0;	
+}
+
+#empr-wrapper #empr-body #imagem-ouro .text .quartos {
+	background-position: 0 -33px;	
+}
+
+#empr-wrapper #empr-body #imagem-ouro .text .garagem {
+	background-position: 1px -62px;	
+}
+
+#empr-wrapper #empr-body #imagem-ouro .text .preco {
+	background-position: 0 -95px;			
+}
+
+#empr-wrapper #empr-body #imagem-ouro .text .banheiros {
+	background-position: 0 0;	
+}
+
+#empr-wrapper #empr-body #imagem-ouro:hover .text .area {
+    background-position: -380px 0px;
+}
+
+#empr-wrapper #empr-body #imagem-ouro:hover .text .quartos {
+    background-position: -380px -33px;
+}
+
+#empr-wrapper #empr-body #imagem-ouro:hover .text .garagem {
+    background-position: -379px -62px;
+}
+
+#empr-wrapper #empr-body #imagem-ouro:hover .text .preco {
+    background-position: -380px -95px;
+}
+
+#empr-body #imagem-ouro:hover h2 {
+    color: #fdb500 !important;
+}
+
+#empr-wrapper #empr-body #imagem-ouro a {
+	height: 316px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#empr-wrapper #empr-body #boxes {
+	float: left;
+    margin-left: 21px;
+    width: 98%;
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+#empr-wrapper #empr-body #boxes .box-anuncio {
+	background: #ffffff;
+    float: left;
+    margin-bottom: 43px;
+    margin-right: 13px;
+    position: relative;
+    width: 265px;
+    overflow: hidden;
+    display: none;
+}
+#empr-wrapper #empr-body .box-anuncio h3 {
+	background: #1e567b none repeat scroll 0 0;
+    color: #fff;
+    font-size: 17px;
+    margin: 0;
+    padding: 7px 0 7px 8px;
+}
+
+#empr-wrapper #empr-body .box-anuncio h4 {
+	font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+#empr-wrapper #empr-body .box-anuncio img {
+	float: left;
+	clear: both;
+
+}
+
+#empr-wrapper #empr-body #boxes .box-anuncio .flag-desconto {
+	background: rgba(0, 0, 0, 0) url(../images/flag.png?v2) no-repeat scroll 0 0;
+    height: 65px;
+    position: absolute;
+    right: 8px;
+    top: 30px;
+    width: 93px;
+    z-index: 1;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 15px;
+	letter-spacing: -1px;
+}
+
+
+
+#empr-wrapper #empr-body #boxes .box-anuncio .flag-desconto span{
+	font-size: 11px;
+    position: absolute;
+    top: 5px;
+    font-weight: 700;	
+}
+
+#empr-wrapper #empr-body #boxes .box-anuncio .info {
+	float: left;
+    margin-top: 10px;
+    min-height: 60px;
+    width: 100%;
+	height: 108px;
+}
+
+#empr-wrapper #empr-body #boxes .box-anuncio .info li {
+	list-style-type: none;
+}
+
+#empr-wrapper #empr-body #boxes .box-anuncio .info .area,
+#empr-wrapper #empr-body #boxes .box-anuncio .info .quartos,
+#empr-wrapper #empr-body #boxes .box-anuncio .info .garagem,
+#empr-wrapper #empr-body #boxes .box-anuncio .info .banheiros,
+#empr-wrapper #empr-body #boxes .box-anuncio .info .preco {
+	background: url(../images/icones-prata-background.png?v2) no-repeat;
+	padding: 5px 0 4px 35px;
+}
+
+#empr-wrapper #empr-body #boxes .box-anuncio .info .area {background-position: 10px 5px;}
+#empr-wrapper #empr-body #boxes .box-anuncio .info .quartos {background-position: 10px -21px;}
+#empr-wrapper #empr-body #boxes .box-anuncio .info .garagem {background-position: 10px -48px;}
+#empr-wrapper #empr-body #boxes .box-anuncio .info .preco {background-position: 10px -73px;}
+#empr-wrapper #empr-body #boxes .box-anuncio .info .banheiros {background-position: 10px -101px;}
+
+
+#empr-wrapper #empr-body #boxes .box-anuncio button {
+	border-radius: 0;
+    margin-top: 13px;
+    width: 100%;	
+}
+
+#empr-wrapper #empr-body #boxes .box-anuncio a.play {
+	height: 426px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	z-index: 2;
+}
+
+
+#empr-wrapper #empr-body .orange {
+	background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #faa51a, #f47a20) repeat scroll 0 0;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+    border: 1px solid #da7c0c;
+    border-radius: 0;
+    color: #fef4e9;
+    margin-top: 15px;
+    width: 100%;
+	position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+#empr-wrapper #empr-body  .orange:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+#empr-wrapper #empr-body  .orange:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+
+#empr-wrapper #empr-body .final-btn {
+	border-radius: 5px;
+    font-size: 168%;
+    height: 73px;
+    margin-bottom: 60px;
+    margin-left: 15px;
+    padding-top: 19px;
+    width: 97%;
+}
+
+#empr-wrapper #empr-body #boxes .box-anuncio:hover {
+	background-color: #f0f0f0;
+}
+
+#empr-wrapper #empr-body #boxes .box-anuncio:hover h3{
+	color: #fa713a;
+}
+
+#empr-body .state-wrapper ul.state {
+	float: left;
+    list-style-type: none;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+#empr-body .state-wrapper {
+	width: 90%;
+	float: left;
+	clear: both;	
+	text-align: center;
+	margin-left: 44px;
+	margin-bottom: 40px;
+}
+
+#empr-body .state-wrapper.bgwhite {
+	background: #fff none repeat scroll 0 0;
+    margin: 10px 0 50px;
+    width: 100%;
+}
+
+#empr-body .state-wrapper ul.state li {
+	float: left;
+    margin-bottom: 8px;
+    margin-right: 9px;
+}
+
+#empr-body .state-wrapper.bgwhite .state li {
+	margin-right: 6px;
+}
+
+#empr-wrapper #empr-body #boxes .box-anuncio ul.info li h3 {
+	font-weight: bold;
+    margin: 0;
+    padding: 0 10px 7px;	
+}
+
+.confira {
+	font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.final-state {
+	margin-left: 47px !important;	
+}
+
+
+#empr-wrapper div#empr-body ul#boxes li.box-anuncio div div.rua-completa {
+	display:none;	
+}
+
+#empr-wrapper div#empr-body ul#boxes li.box-anuncio div img.logo {
+	float: left;
+    margin: 9px 12px 2px 8px;
+   
+	max-height: 53px;
+    max-width: 97px;
+}
+
+#empr-wrapper div#empr-body ul#boxes li.box-anuncio div.info-rua * {
+	font-size: 10px;	
+}
+
+
+
+#empr-wrapper #empr-body .box-anuncio .info-rua {
+	float: left;
+    margin-bottom: 4px;
+    margin-top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-left: 6px;	
+    height: 67px;
+    width: 100%;
+}
+
+#empr-wrapper div#empr-body ul#boxes li.box-anuncio div.info-rua div.bairro {
+	float: left;
+    margin-bottom: 0;
+    margin-top: 13px;
+    width: 54%;
+}
+
+#empr-wrapper div#empr-body ul#boxes li.box-anuncio div.info-rua div.rua {
+	float: left;
+    margin-bottom: 4px;
+    margin-top: 0;
+    width: 48%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin-left: 6px;
+}
+
+#empr-wrapper div#empr-body ul#boxes li.box-anuncio div.info-rua *{
+	font-size: 15px;	
+}
+
+#empr-wrapper div#empr-body ul#boxes li.box-anuncio hr {
+	clear: both;
+    float: left;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-top: 0;
+    width: 91%;
+}
+
+#empr-wrapper div#empr-body ul#boxes li.box-anuncio div.preco {
+	float: left;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 10px;
+    text-align: center;
+    width: 240px;
+}
+
+#empr-wrapper div#empr-body ul#boxes li.box-anuncio div.preco.aluguel {
+	margin-left: 29px;
+}
+
+#empr-wrapper div#empr-body ul#boxes li.box-anuncio ul.info li {
+	float: left;
+	width: 132px;
+}
+
+#empr-wrapper div#empr-header div.title h1 {
+	text-indent: -9999px;
+	position: absolute;
+}
+
+#empr-wrapper div#empr-body div.filtro ul {
+	float: left;
+    margin-left: 21px;
+    margin-top: 9px;
+    width: 100%;
+}
+
+#empr-wrapper div#empr-body div.filtro ul li {
+	list-style-type: none;
+	float: left;
+	height: 42px;	
+}
+
+
+#empr-wrapper div#empr-body .filtro ul li a:link, #empr-wrapper div#empr-body .filtro ul li a:visited {
+	background: #fbd3a5 none repeat scroll 0 0;
+    color: #333;
+    font-size: 14px;
+    margin-right: 2px;
+    padding: 19px 17px;
+    text-decoration: none;
+    float: left;
+    height: 55px;
+}
+
+#empr-wrapper div#empr-body .filtro ul li a:hover {
+	background: #f6921e;
+}
+
+#empr-wrapper div#empr-body div.filtro ul li a.selected {
+	background: #f6921e;
+}
+
+.sem_logo {
+	float: left;
+    margin: 22px 17px 1px 2px;
+    max-height: 53px;
+    max-width: 97px;
+    min-height: 40px;
+    min-width: 99px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#empr-wrapper #empr-body ul#boxes li.box-anuncio h3 span.id {
+	font-size: 4px;
+	color: #1e567b;
+}
+
+#empr-wrapper #empr-body ul#boxes li.box-anuncio div.preco span {
+	font-size: 15px;
+    left: 11px;
+    position: absolute;
+    top: 301px;
+}
+
+#empr-body .filtro {
+	position: relative;
+    margin-right: 15px;
+	margin-top: 12px;
+}
+
+#empr-wrapper div#empr-body div.filtro ul#preco {
+	position: absolute;
+    right: 0;
+    width: 230px;
+}
+
+
+#top-header {
+	width: 100%;
+    text-align: center;
+    margin: -20px auto;
+    position: relative;
+    height: 41px;
+    background: #ff4c00;
+    margin-bottom: 0px;
+    opacity: 0.7;
+}
+
+#empr-wrapper div#empr-body .filtro ul#estados li a {
+	background: #eed797;
+}
+
+#empr-wrapper div#empr-body .filtro ul#estados li a:hover, #empr-wrapper div#empr-body .filtro ul#estados li a.selected  {
+	background: #f6ce3c;
+}
+
+/* CSS PARA DESKTOP */
+@media screen and (min-width: 921px) {
+	#empr-wrapper {
+		width: 1140px;
+	}
+	
+	#empr-header div.title img {
+		width: 100%
+	}
+	
+	#lista-integracao-telefone {
+		width: 75%;
+	}
+
+	#empr-wrapper div#empr-body ul#boxes li.box-anuncio img.imagem-produto {
+		width: auto;
+		max-height: 185px;
+    	min-width: 265px;
+		height: 185px;
+	}
+	#empr-wrapper div#empr-body div.filtro ul#cidades {
+		margin-top: -8px;
+	}
+	#empr-wrapper div#empr-body div.filtro ul#cidades li {
+		margin-bottom: 16px;
+	}
+	#empr-wrapper div#empr-body div.filtro ul#estados {
+		margin-bottom: 17px;
+		width: 80%;
+	}
+
+	#empr-wrapper div#empr-body div.filtro ul#estados li {
+		margin-bottom: 16px;
+	}
+	
+}
+
+
+/* CSS PARA TABLETS E LAPTOPS*/
+@media screen and (max-width: 1165px) {
+	body {
+    	background: #287BB3 url(../images/fondo.jpg) no-repeat scroll center -190px;
+	}	
+	#empr-wrapper {
+	 	width: 643px;
+	}	
+	
+	#empr-header div.title img {
+		width: 56%;
+	}
+	
+	#empr-wrapper #empr-body #boxes {
+		width: 87%;
+		margin-left: 48px;	
+	}
+	
+	#empr-wrapper #empr-header {
+		height: 270px;
+		background: url(../images/header_v1_643.png?v2) no-repeat;
+	}
+	
+	#empr-wrapper #empr-header .text {
+		top: 263px;
+		width: 100%;
+		left: 0px;
+		font-size: 15px;
+		line-height: 23px;
+		background: url(../images/barra.png?v2);
+		padding: 9px 25px;
+	}
+	
+	#empr-wrapper #empr-header .title {
+		top: 78px;
+		left: 6px;
+	}
+	
+	#empr-wrapper #empr-body {
+		padding-top: 0px;	
+	}
+	
+	
+	
+	.form {
+		width: 289px;
+		top: 33px;
+		right: 0;
+		padding: 9px 17px 16px 15px;	
+	}
+	
+	.title_v2 {
+		font-size: 17px;	
+	}
+	
+	.form-control {
+		width: 76%;
+		height: 27px;	
+	}
+	
+	#lista-integracao-telefone {
+		width: 72%;
+		height: 28px;
+	}
+	
+	.btncolor {
+		padding: 5px 93px;	
+	}
+	
+	.confira {
+		margin-bottom: 4px;
+	}
+	
+	#empr-wrapper #empr-body .js-countdown {
+		margin-left: 35px;	
+	}
+	
+	.txt-1, .txt-2, .txt-3, .txt-4, #footer {
+		width: 643px;	
+	}
+	
+	label {
+		font-size: 13px;
+	}
+	
+	#empr-wrapper #empr-body .final-btn {
+		    width: 90%;
+			margin-top: 0px;
+	}
+	
+	#footer {
+		height: 215px;	
+	}
+
+	#empr-wrapper div#empr-body ul#boxes li.box-anuncio img.imagem-produto {
+		width: auto;
+		max-height: 185px;
+    	min-width: 265px;	
+	}
+
+	#empr-wrapper div#empr-body div.filtro ul#cidades {
+		margin-top: 0;
+	}
+	#empr-wrapper div#empr-body div.filtro ul#cidades li {
+		margin-bottom: 16px;
+	}
+	#empr-wrapper div#empr-body div.filtro ul#estados {
+		margin-bottom: 4px;
+	}
+
+	#empr-wrapper div#empr-body div.filtro ul#estados {
+		width: 60%;
+	}
+
+	#empr-wrapper div#empr-body div.filtro ul#estados li {
+		margin-bottom: 16px;
+	}
+}
+
+
+/* CSS PARA CELULARES */
+@media screen and (max-width: 670px), only screen and (max-device-width: 480px) {
+	#empr-wrapper {
+		    width: 345px;
+   			margin: 0px auto;
+	}
+	
+	#empr-wrapper #empr-body #boxes {
+		float: left;
+		margin-left: 21px;
+		width: 98%;
+		list-style-type: none;
+		margin-bottom: 0;
+	}
+	
+	.confira {
+		font-size: 12px;
+		font-weight: 400;
+		margin-bottom: 0;
+		margin-left: 0;
+		text-align: center;
+	}
+	
+	#empr-wrapper #empr-header .title {
+		left: 6px;
+		top: 10px;	
+	}
+	
+	#empr-header div.title img {
+		width: 98%;	
+	}
+	
+	#empr-wrapper #empr-header .text {
+		top: 144px;
+		width: 100%;
+		left: 0px;
+		font-size: 11px;
+		line-height: 15px;
+		background: url(../images/barra.png?v2);
+		padding: 5px 68px;
+	}
+	
+	#empr-wrapper div#empr-body ul#boxes li.box-anuncio div.preco {
+		float: left;
+		font-size: 15px;
+		font-weight: 100;
+		margin-left: 0;
+		text-align: center;
+		width: 142px;
+	}
+	
+	#empr-wrapper #empr-header {
+		height: 144px;
+		background: url(../images/header_v1_345.png?v2?v1) no-repeat;
+	}
+	
+	#empr-wrapper div#empr-body div.filtro ul li {
+		margin-bottom: 19px;
+	}
+	
+	
+	
+	#empr-wrapper div#empr-body ul#boxes li.box-anuncio div.info-rua div.bairro {
+		margin-top: 7px;	
+		width: 100%;
+	}
+	
+	#empr-wrapper #empr-body #boxes .box-anuncio .flag-desconto {
+		background: rgba(0, 0, 0, 0) url(../images/flag_60.png?v2) no-repeat scroll 0 0;	
+		color: #fff;
+		font-size: 18px;
+		height: 65px;
+		letter-spacing: -1px;
+		position: absolute;
+		right: -29px;
+		top: 20px;
+		width: 93px;
+		padding-left: 8px;
+	}
+	
+	
+	
+	#empr-wrapper div#empr-body ul#boxes li.box-anuncio div img.logo {
+		margin-left: 21px;
+		width: 100%;
+	}
+	
+	#empr-wrapper div#empr-body ul#boxes li.box-anuncio div.info-rua div.rua {
+		width: 92%;
+	}
+	
+	#empr-wrapper #empr-body .box-anuncio .info-rua {
+		height: 104px;
+	}
+	
+	#empr-wrapper div#empr-body ul#boxes li.box-anuncio div.info-rua * {
+		font-size: 10px;
+	}
+	
+	#empr-wrapper #empr-body .box-anuncio h3 {
+		font-size: 12px;
+	}
+	
+	#empr-wrapper div#empr-body ul#boxes li.box-anuncio img.imagem-produto {
+		width: 100%;
+	}
+	
+	#empr-wrapper div#empr-body .filtro ul li a:link, #empr-wrapper div#empr-body .filtro ul li a:visited {
+		font-size: 9px;
+	    padding: 10px 8px;
+	    height: 31px;
+	}
+	
+	
+	
+	#empr-wrapper #empr-body {
+		padding-top: 0px;	
+	}
+	
+	#empr-wrapper #empr-body .title {
+		font-size: 40px;	
+	}
+	
+	#empr-wrapper #empr-body .js-countdown {
+		margin-left: 0;
+	}
+	
+	.form {
+		top: 327px;	
+	}
+	
+	#clockdiv div > span {
+		padding: 5px;
+	}
+	
+	#clockdiv > div {
+		padding: 6px 7px 2px;	
+	}
+	
+	sup {
+		display: none;	
+	}
+	
+	#clockdiv {
+		font-size: 32px;	
+	}
+	
+	.smalltext {
+		font-size: 11px;
+	}	
+	
+	#clockdiv > div:first-child {
+		background-color: #f6921e;
+	}
+	
+	.txt-1, .txt-2, .txt-3, .txt-4, #footer {
+		width: 344px;	
+	}
+	
+	.footer-text {
+		text-align: center;
+		width: 300px;
+	}
+	
+	.social-icons .copyright-text {
+		margin-left: 20px;
+	}
+	
+	#footer {
+		height: 215px;	
+	}
+	
+	.h2, h2 {
+		font-size: 22px;	
+	}
+	
+	body {
+		font-size: 12px;	
+	}
+	
+	#empr-wrapper #empr-body .final-btn {
+		    width: 90%;
+			margin-top: 0px;
+			
+	}
+	
+	.sem_logo {
+		min-width: 89%;
+		min-height: 16px;	
+	}
+	#boxes li.box-anuncio div.info-rua div.bairro {
+		margin-top: 0;
+		width: 91%;	
+	}
+	
+	#empr-wrapper #empr-body .box-anuncio .info-rua {
+		min-height: 96px;
+		margin: 8px 15px 0 2px;
+	}
+	
+
+	#empr-wrapper #empr-body #boxes .box-anuncio {
+		width: 146px;
+    	height: 507px;
+		margin-bottom: 12px;
+	}
+	
+	#empr-wrapper #empr-body #boxes .box-anuncio a.play {
+		height: 472px;
+    }
+	
+	#empr-wrapper #empr-body ul#boxes li.box-anuncio div.preco span {
+		font-size: 11px;
+  		top: 324px;
+	}
+	#empr-wrapper div#empr-body ul#boxes li.box-anuncio div.aluguel {
+		margin-left: 29px;
+	}
+
+	#empr-wrapper div#empr-body div.filtro ul#preco {
+		position: absolute;
+	    right: 0;
+	    width: 70px;
+	}
+	#empr-wrapper div#empr-body div.filtro ul li {
+		height: 17px;
+	}
+
+	#empr-wrapper div#empr-body div.filtro ul#estados {
+		margin-bottom: 0;
+		width: 70%;
+	}
+
+	#empr-wrapper div#empr-body div.filtro ul#cidades {
+		width: 70%;
+	}
+
+}
+
